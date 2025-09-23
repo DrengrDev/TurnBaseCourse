@@ -43,6 +43,7 @@ public class GridSystem
         );
     }
 
+    //Creates grid with debug objects based on size of grid system
     public void CreateDebugObjects(Transform debugPrefab)
     {
         for(int x = 0; x < width; x++)
