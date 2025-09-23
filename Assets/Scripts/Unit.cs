@@ -22,7 +22,7 @@ public class Unit : MonoBehaviour
 
     private void Update()
     {
-
+        //controlling animation based on unit movement
         float stoppingDistance = .1f;
         if(Vector3.Distance(transform.position, targetPos) > stoppingDistance)
         {

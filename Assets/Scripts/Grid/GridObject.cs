@@ -15,6 +15,7 @@ public class GridObject
         unitList = new List<Unit>();
     }
 
+    //Display string of unit on gridobject in realtime
     public override string ToString()
     {
         string unitString = "";
