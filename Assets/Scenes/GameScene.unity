@@ -184,7 +184,7 @@ PrefabInstance:
     - target: {fileID: 8937593145301108356, guid: 1712ace87675aa54e8e8e302d490479a,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.8406997
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8937593145301108356, guid: 1712ace87675aa54e8e8e302d490479a,
         type: 3}
@@ -194,7 +194,7 @@ PrefabInstance:
     - target: {fileID: 8937593145301108356, guid: 1712ace87675aa54e8e8e302d490479a,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3.4135084
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8937593145301108356, guid: 1712ace87675aa54e8e8e302d490479a,
         type: 3}
@@ -454,8 +454,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.22975302, y: -0.00000002900508, z: 0.000000006847173, w: 0.97324896}
-  m_LocalPosition: {x: 0, y: 5.000003, z: -10}
+  m_LocalRotation: {x: 0.26678467, y: -0.000000018544291, z: 0.0000000051333857, w: 0.9637562}
+  m_LocalPosition: {x: 0, y: 5.995797, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -964,7 +964,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BindingMode: 1
-  m_FollowOffset: {x: 0, y: 5.000003, z: -10}
+  m_FollowOffset: {x: 0, y: 5.995797, z: -10}
   m_XDamping: 0
   m_YDamping: 0
   m_ZDamping: 0
@@ -1121,8 +1121,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2028435877}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.22975302, y: -0.00000002900508, z: 0.0000000068471735, w: 0.97324896}
-  m_LocalPosition: {x: 0, y: 5.000003, z: -10}
+  m_LocalRotation: {x: 0.26678467, y: -0.00000001854429, z: 0.0000000051333853, w: 0.9637562}
+  m_LocalPosition: {x: 0, y: 5.995797, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1141,6 +1141,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Unit
+      objectReference: {fileID: 0}
+    - target: {fileID: 6290285361365823126, guid: 1712ace87675aa54e8e8e302d490479a,
+        type: 3}
+      propertyPath: maxMoveDistance
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8937593145301108356, guid: 1712ace87675aa54e8e8e302d490479a,
         type: 3}
