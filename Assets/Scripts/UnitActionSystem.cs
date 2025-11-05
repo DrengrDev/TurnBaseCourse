@@ -39,6 +39,9 @@ public class UnitActionSystem : MonoBehaviour
     {
         if (isBusy) return;
 
+        //If it's the enemies turn, do nothing
+        if (!TurnSystem.Instance.IsPlayerTurn()) return;
+
         if (EventSystem.current.IsPointerOverGameObject()) return;
 
         if (TryHandleUnitSelection()) return;
@@ -99,6 +102,12 @@ public class UnitActionSystem : MonoBehaviour
                     if (unit == selectedUnit)
                     {
                         //Unit is already selected
+                        return false;
+                    }
+
+                    if (unit.IsEnemy())
+                    {
+                        //Clicked on an enemy
                         return false;
                     }
 
