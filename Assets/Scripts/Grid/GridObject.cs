@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class GridObject
@@ -37,7 +38,7 @@ public class GridObject
         unitList.Remove(unit);
     }
 
-    public List<Unit> GetUnit()
+    public List<Unit> GetUnitList()
     {
         return unitList;
     }
@@ -45,5 +46,17 @@ public class GridObject
     public bool HasAnyUnit()
     {
         return unitList.Count > 0;
+    }
+
+    public Unit GetUnit()
+    {
+        if (HasAnyUnit())
+        {
+            return unitList[0];
+        }
+        else
+        {
+            return null;
+        }
     }
 }
